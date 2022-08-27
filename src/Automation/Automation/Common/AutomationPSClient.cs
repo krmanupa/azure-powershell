@@ -54,6 +54,7 @@ namespace Microsoft.Azure.Commands.Automation.Common
     public partial class AutomationPSClient : IAutomationPSClient
     {
         private readonly AutomationManagement.IAutomationClient automationManagementClient;
+        //private readonly HybridRunbookWorkerGroupClient hybridWorkerGroupClient;
 
         // Injection point for unit tests
         public AutomationPSClient()
